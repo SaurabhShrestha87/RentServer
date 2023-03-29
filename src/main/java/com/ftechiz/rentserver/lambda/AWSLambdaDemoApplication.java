@@ -1,4 +1,4 @@
-package com.appsdeveloperblog.aws.lambda;
+package com.ftechiz.rentserver.lambda;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

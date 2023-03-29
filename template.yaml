@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Resources:
+  MyLambdaFunction:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      CodeUri: target/lambda.jar
+      Handler: com.example.lambda.MyLambdaFunction::handleRequest
+      Runtime: java17
+      Timeout: 10
+      MemorySize: 256
+      Events:
+        ApiGateway:
+          Type: Api
+          Properties:
+            Path: /
+            Method: GET

@@ -1,5 +1,5 @@
-# Build and deploy a Serverless Spring Boot Web Application with AWS Lambda
+# Building and deploying a Rent Serverless Spring Boot Web Application with AWS Lambda
 
-Author : Vaishnavi Chilakamarthi 
+Author : Saurabh Shrestha
 
-Link to the tutorial - https://www.appsdeveloperblog.com/build-and-deploy-a-serverless-spring-boot-web-application-with-aws-lambda/
+For startup tutorial - https://www.appsdeveloperblog.com/build-and-deploy-a-serverless-spring-boot-web-application-with-aws-lambda/
